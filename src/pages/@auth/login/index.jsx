@@ -56,7 +56,7 @@ function Login() {
                                     <button
                                         type="button"
                                         id="showHideBtn"
-                                        onclick="togglePasswordVisibility(1)"
+                                        onClick="togglePasswordVisibility(1)"
                                         className="btn btn-outline-secondary"
                                     >
                                         <i className="bi bi-eye-slash" />
