@@ -27,7 +27,7 @@ export default function Sidebar(){
             </a>
             <ul id="make-campaign-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
             <li>
-                <Link href="/campaign/create-campaign" className={`${pathname === '/campaign/list-campaign' ? 'active' : ''}`} >
+                <Link href="/campaign/create-campaign" className={`${pathname === '/campaign/create-campaign' ? 'active' : ''}`} >
                 <i className="bi bi-circle " />
                 <span>Buat Campaign</span>
                 </Link>
