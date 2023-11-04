@@ -1,4 +1,5 @@
 import TransactionLayout from '@/pages/transaction/transaction-invest/layout';
+import DataTable from '@/components/utils/DataTable';
 
 import Link from 'next/link';
 export default function TransactionInvest() {
@@ -26,7 +27,7 @@ export default function TransactionInvest() {
                     <div className="card recent-sales overflow-auto">
                         <div className="card-body">
                         <h5 className="card-title">Transaksi User Investor</h5>
-                        <table className="table table-borderless datatable">
+                        <DataTable>
                             <thead>
                             <tr>
                                 <th scope="col">#</th>
@@ -143,7 +144,7 @@ export default function TransactionInvest() {
                                 </td>
                             </tr>
                             </tbody>
-                        </table>
+                        </DataTable>
                         </div>
                     </div>
                     </div>
