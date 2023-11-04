@@ -17,7 +17,7 @@ export default function HeaderComponent() {
         <header id="header" className="header fixed-top d-flex align-items-center">
             <div className="d-flex align-items-center justify-content-between">
             <Link href="/dashboard" className="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="" />
+                <img src="/assets/img/logo.png" alt="" />
                 <span className="d-none d-lg-block">Campaign</span>
             </Link>
             <i className="bi bi-list toggle-sidebar-btn" />
@@ -125,7 +125,7 @@ export default function HeaderComponent() {
                     data-bs-toggle="dropdown"
                 >
                     <img
-                    src="assets/img/profile-img.jpg"
+                    src="/assets/img/profile-img.jpg"
                     alt="Profile"
                     className="rounded-circle"
                     />
@@ -143,13 +143,13 @@ export default function HeaderComponent() {
                     <hr className="dropdown-divider" />
                     </li>
                     <li>
-                    <a
+                    <Link
                         className="dropdown-item d-flex align-items-center"
-                        href="users-profile.html"
+                        href="/information/profile"
                     >
                         <i className="bi bi-person" />
                         <span>My Profile</span>
-                    </a>
+                    </Link>
                     </li>
                     <li>
                     <hr className="dropdown-divider" />
@@ -158,13 +158,13 @@ export default function HeaderComponent() {
                     <hr className="dropdown-divider" />
                     </li>
                     <li>
-                    <a
+                    <Link
                         className="dropdown-item d-flex align-items-center"
-                        href="pages-faq.html"
+                        href="/notify/notify-report"
                     >
                         <i className="bi bi-question-circle" />
                         <span>Need Help?</span>
-                    </a>
+                    </Link>
                     </li>
                     <li>
                     <hr className="dropdown-divider" />
