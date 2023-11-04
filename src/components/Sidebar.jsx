@@ -104,7 +104,7 @@ export default function Sidebar(){
                 </Link>
             </li>
             <li>
-                <Link href="/notify/notify-report" className={`${pathname === '/notify/notify-admin' ? 'active' : ''}`}>
+                <Link href="/notify/notify-report" className={`${pathname === '/notify/notify-report' ? 'active' : ''}`}>
                 <i className="bi bi-circle" />
                 <span>Lapor Admin</span>
                 </Link>
