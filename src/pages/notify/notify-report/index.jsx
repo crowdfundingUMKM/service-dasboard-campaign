@@ -14,7 +14,7 @@ export default function NotifyReport() {
                 <li className="breadcrumb-item">
                     <a href="index.html">Home</a>
                 </li>
-                <li className="breadcrumb-item">User</li>
+                <li className="breadcrumb-item">Notifikasi</li>
                 <li className="breadcrumb-item active">Kontak Admin</li>
                 </ol>
             </nav>

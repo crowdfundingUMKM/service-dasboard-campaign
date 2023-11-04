@@ -11,7 +11,7 @@ export default function NotifyAdmin() {
                     <li className="breadcrumb-item">
                         <Link href="/dashboard">Home</Link>
                     </li>
-                    <li className="breadcrumb-item">Information</li>
+                    <li className="breadcrumb-item">Notifikasi</li>
                     <li className="breadcrumb-item active">Notif Admin</li>
                     </ol>
                 </nav>
