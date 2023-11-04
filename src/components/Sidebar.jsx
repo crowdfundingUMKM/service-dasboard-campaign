@@ -112,10 +112,10 @@ export default function Sidebar(){
             </ul>
         </li>
         {/* End Notif Admin*/}
-        <li className="nav-heading">Pages</li>
+        <li className="nav-heading">USER</li>
         <li className="nav-item">
             <Link href="/information/profile">
-            <div className={`nav-link  ${pathname === '/information/profile' ? '' : 'collapsed'}`} >
+            <div className={`nav-link  ${pathname === '/user/profile' ? '' : 'collapsed'}`} >
             <i className="bi bi-person" />
             <span>Profile</span>
             </div>
@@ -123,8 +123,8 @@ export default function Sidebar(){
         </li>
         {/* End Profile Page Nav */}
         <li className="nav-item">
-              <Link  href="/information/faq">
-                <div className={`nav-link  ${pathname === '/information/faq' ? '' : 'collapsed'}`}>
+              <Link  href="/user/faq">
+                <div className={`nav-link  ${pathname === '/user/faq' ? '' : 'collapsed'}`}>
                 <i className="bi bi-question-circle" />
                 <span>F.A.Q</span>
                 </div>

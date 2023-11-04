@@ -98,7 +98,7 @@ export default function CreateCampaign() {
                                 className="form-control"
                                 placeholder="Masukkan Uang Rupiah"
                                 required=""
-                                oninput="formatCurrency(this)"
+                                // onInput="formatCurrency(this)"
                             />
                             </div>
                             <div className="input-group mb-3">
@@ -114,7 +114,7 @@ export default function CreateCampaign() {
                                 className="form-control"
                                 placeholder="Masukkan Uang Rupiah"
                                 required=""
-                                oninput="formatCurrency(this); validateMinInvest(this)"
+                                // onInput="formatCurrency(this); validateMinInvest(this)"
                             />
                             </div>
                             <div className="input-group mb-3">
@@ -173,7 +173,7 @@ export default function CreateCampaign() {
                                 type="file"
                                 id="formFile"
                                 accept="application/pdf"
-                                onchange="validateFileSize(this)"
+                                // onChange="validateFileSize(this)"
                                 required=""
                                 />
                             </div>
@@ -258,15 +258,15 @@ export default function CreateCampaign() {
                         <div className="row mb-3">
                             <div className="col-sm-2" />
                             <div className="col-sm-10">
-                            <button className="btn btn-primary" onclick="addMoreImages()">
+                            {/* <button className="btn btn-primary" onClick="addMoreImages()">
                                 Tambah Gambar
                             </button>
-                            <button className="btn btn-success" onclick="simpanGambar()">
+                            <button className="btn btn-success" onClick="simpanGambar()">
                                 Simpan
                             </button>
-                            <button className="btn btn-danger" onclick="resetInput()">
+                            <button className="btn btn-danger" onClick="resetInput()">
                                 Reset
-                            </button>
+                            </button> */}
                             </div>
                         </div>
                         <div id="imageUploadContainer">
