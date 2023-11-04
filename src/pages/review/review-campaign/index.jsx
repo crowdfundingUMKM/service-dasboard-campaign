@@ -1,4 +1,4 @@
-import ReviewCampaignLayout from '@/layouts/review-campaign-layout';
+import ReviewCampaignLayout from '@/pages/review/review-campaign/layout';
 
 import Link from 'next/link';
 
