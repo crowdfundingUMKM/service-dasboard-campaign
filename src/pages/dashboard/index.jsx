@@ -32,33 +32,8 @@ export default function Home() {
                 <div className="col-lg-8">
                 <div className="row">
                     {/* Sales Card */}
-                    <div className="col-xxl-6 col-md-6">
+                    <div className="col-xxl-6 col-xl-12">
                     <div className="card info-card sales-card">
-                        <div className="filter">
-                        <a className="icon" href="#" data-bs-toggle="dropdown">
-                            <i className="bi bi-three-dots" />
-                        </a>
-                        <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                            <li className="dropdown-header text-start">
-                            <h6>Filter</h6>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                Today
-                            </a>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                This Month
-                            </a>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                This Year
-                            </a>
-                            </li>
-                        </ul>
-                        </div>
                         <div className="card-body">
                         <h5 className="card-title">
                             User Donasi Anda <span>| Total</span>
@@ -82,33 +57,8 @@ export default function Home() {
                     </div>
                     {/* End Sales Card */}
                     {/* Revenue Card */}
-                    <div className="col-xxl-6 col-md-6">
+                    <div className="col-xxl-6 col-xl-12">
                     <div className="card info-card revenue-card">
-                        <div className="filter">
-                        <a className="icon" href="#" data-bs-toggle="dropdown">
-                            <i className="bi bi-three-dots" />
-                        </a>
-                        <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                            <li className="dropdown-header text-start">
-                            <h6>Filter</h6>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                Today
-                            </a>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                This Month
-                            </a>
-                            </li>
-                            <li>
-                            <a className="dropdown-item" href="#">
-                                This Year
-                            </a>
-                            </li>
-                        </ul>
-                        </div>
                         <div className="card-body">
                         <h5 className="card-title">
                             Donasi campaign anda <span>| Total</span>

@@ -6,7 +6,7 @@ export default function ProfileDropdown() {
     return(   
         <li className="nav-item dropdown pe-3">
             <Link href="/dashboard" className="nav-link nav-profile d-flex align-items-center pe-0" data-bs-toggle="dropdown">
-            <img src="assets/img/profile-img.jpg" alt="Profile" className="rounded-circle"/>
+            <Image src="/assets/img/profile-img.jpg" alt="Profile"  width={36} height={36} layout="responsive" className="rounded-circle"/>
             <span className="d-none d-md-block dropdown-toggle ps-2">
                 K. Anderson
             </span>

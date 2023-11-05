@@ -21,7 +21,7 @@ export default function NotificationDropdown() {
                 
                 <li className="notification-item">
                     <i className="bi bi-x-circle text-danger" />
-                    <div>
+                    <div >
                     <h4>Atque rerum nesciunt</h4>
                     <p>Quae dolorem earum veritatis oditseno</p>
                     <p>1 hr. ago</p>
