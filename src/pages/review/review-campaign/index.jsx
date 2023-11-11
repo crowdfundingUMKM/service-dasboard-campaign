@@ -37,13 +37,13 @@ export default function ReviewCampaign() {
                         <div id="rating_review" className="row">
                             <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
                         </div>
-                        <a className="btn btn-primary " href="#" role="button">
+                        <a className="btn btn-primary m-1" href="#" role="button">
                             Kunjungi Profile Reviewer
                         </a>
                         {/* button to whatsapp */}
                         {/* make message: No Hp & text=message %20 for space  */}
                         <a
-                            className="btn btn-success "
+                            className="btn btn-success m-1"
                             href="https://api.whatsapp.com/send?phone=813678221&text=Hallo,%20Apa%20benar%20ini%20dengan%20UMKM%20Batik%20Indonesia?"
                             role="button"
                             target="_blank"
@@ -68,13 +68,13 @@ export default function ReviewCampaign() {
                         <div id="rating_review" className="row">
                             <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
                         </div>
-                        <a className="btn btn-primary " href="#" role="button">
+                        <a className="btn btn-primary m-1" href="#" role="button">
                             Kunjungi Profile Reviewer
                         </a>
                         {/* button to whatsapp */}
                         {/* make message: No Hp & text=message %20 for space  */}
                         <a
-                            className="btn btn-success "
+                            className="btn btn-success m-1"
                             href="https://api.whatsapp.com/send?phone=813678221&text=Hallo,%20Apa%20benar%20ini%20dengan%20UMKM%20Batik%20Indonesia?"
                             role="button"
                             target="_blank"
@@ -99,13 +99,13 @@ export default function ReviewCampaign() {
                         <div id="rating_review" className="row">
                             <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
                         </div>
-                        <a className="btn btn-primary " href="#" role="button">
+                        <a className="btn btn-primary m-1" href="#" role="button">
                             Kunjungi Profile Reviewer
                         </a>
                         {/* button to whatsapp */}
                         {/* make message: No Hp & text=message %20 for space  */}
                         <a
-                            className="btn btn-success "
+                            className="btn btn-success m-1"
                             href="https://api.whatsapp.com/send?phone=813678221&text=Hallo,%20Apa%20benar%20ini%20dengan%20UMKM%20Batik%20Indonesia?"
                             role="button"
                             target="_blank"
