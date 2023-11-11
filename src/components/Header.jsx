@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic';
 
 import Image from 'next/image'
 
+import ReloadButton from '@/components/button/ReloadButton';
 
 // import 'bootstrap-icons/font/bootstrap-icons.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,13 +26,12 @@ export default function HeaderComponent() {
             {/* End Logo */}
             <nav className="header-nav ms-auto">
             <ul className="d-flex align-items-center">
+                {/* Reload Buttoon */}
+                <ReloadButton />
                 {/* <NotificationDropdownDynamic  /> */}
-              <NotificationDropdown />
-
-                {/* End Notify Dropdown */}
-
+                <NotificationDropdown />
                 {/* Profile Dropdown */}
-            <ProfileDropdown  />  
+                <ProfileDropdown  />  
             </ul>
             </nav>
             {/* End Icons Navigation */}
