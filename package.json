@@ -15,6 +15,7 @@
     "datatables.net-dt": "^1.13.6",
     "jquery": "^3.7.1",
     "next": "14.0.1",
+    "notiflix": "^3.2.6",
     "react": "^18",
     "react-dom": "^18",
     "style-loader": "^3.3.3"
