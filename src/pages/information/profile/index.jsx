@@ -1,5 +1,6 @@
 import ProfileLayout from '@/pages/information/profile/layout';
 import Link from 'next/link';
+import Image from 'next/image';
 export default function Profile() {
     return (
         <ProfileLayout>
@@ -22,10 +23,13 @@ export default function Profile() {
                 <div className="col-xl-4">
                 <div className="card">
                     <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
-                    <img
+                    <Image
                         src="/assets/img/profile-img.jpg"
                         alt="Profile"
                         className="rounded-circle"
+                        width={120}
+                        height={120}
+                        layout="responsive"
                     />
                     <h2>Ahmad Zaky</h2>
                     <h3>Pengusaha</h3>
@@ -130,7 +134,7 @@ export default function Profile() {
                                 Profile Image
                             </label>
                             <div className="col-md-8 col-lg-9">
-                                <img src="/assets/img/profile-img.jpg" alt="Profile" />
+                                <Image src="/assets/img/profile-img.jpg" alt="Profile" height={100} width={100} layout="responsive"/>
                                 <div className="pt-2">
                                 <a
                                     href="#"

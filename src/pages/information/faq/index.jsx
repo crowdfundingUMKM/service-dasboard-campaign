@@ -71,7 +71,7 @@ export default function Faq() {
                         memulai, langkah pertama adalah mengisi profil dan data diri
                         secara lengkap. Setelah data terisi dengan benar, user dapat
                         melakukan pendaftaran untuk campaign UMKM dengan mengisi form
-                        pada bagian "Buat Campaign".
+                        pada bagian &quot;Buat Campaign&rdquo;.
                     </p>
                     <p>
                         Setelah mengisi formulir dengan seksama, langkah selanjutnya
@@ -80,8 +80,8 @@ export default function Faq() {
                         campaign UMKM akan di-approve dan muncul pada platform, sehingga
                         investor dapat mulai berdonasi untuk mendukung usaha tersebut.
                         User Campaign juga dapat memantau perkembangan donasi dan
-                        melihat jumlah dana yang terkumpul melalui halaman "My List
-                        Campaign".
+                        melihat jumlah dana yang terkumpul melalui halaman &quot;My List
+                        Campaign&rdquo;.
                     </p>
                     <p>
                         Tata cara kerja ini memberikan kesempatan bagi para pelaku usaha
@@ -104,7 +104,7 @@ export default function Faq() {
                         <li>
                         Pendaftaran Campaign: Setelah data profil terisi dengan benar,
                         User Campaign mendaftarkan campaign UMKM dengan mengisi form
-                        yang tersedia pada halaman "Buat Campaign".
+                        yang tersedia pada halaman &quot;Buat Campaign&rdquo;.
                         </li>
                         <li>
                         Review oleh Konsultan: Setelah data campaign terisi, campaign

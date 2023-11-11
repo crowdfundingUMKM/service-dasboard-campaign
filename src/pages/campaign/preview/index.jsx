@@ -64,24 +64,34 @@ export default function PreviewCampaign() {
                                 </div>
                                 <div className="carousel-inner rounded-3">
                                     <div className="carousel-item active">
-                                    <img
+                                    <Image
                                         src="/assets/img/slides-1.jpg"
                                         className="d-block w-100"
                                         alt="..."
+                                        width={100}
+                                        height={100}
+                                        layout="responsive"
+
                                     />
                                     </div>
                                     <div className="carousel-item">
-                                    <img
+                                    <Image
                                         src="/assets/img/slides-2.jpg"
                                         className="d-block w-100"
                                         alt="..."
+                                        width={100}
+                                        height={100}
+                                        layout="responsive"
                                     />
                                     </div>
                                     <div className="carousel-item">
-                                    <img
+                                    <Image
                                         src="/assets/img/slides-3.jpg"
                                         className="d-block w-100"
                                         alt="..."
+                                        width={100}
+                                        height={100}
+                                        layout="responsive"
                                     />
                                     </div>
                                 </div>
@@ -220,10 +230,10 @@ export default function PreviewCampaign() {
                                         </ul>
                                         {/* Button to link bisnis &  Proposal Bisnis*/}
                                         <div className="link-bisnis m-2">
-                                        <a className="btn btn-primary" href="#" role="button">
+                                        <a className="btn btn-primary m-1" href="#" role="button">
                                             Link Bisnis
                                         </a>
-                                        <a className="btn btn-primary" href="#" role="button">
+                                        <a className="btn btn-primary m-1" href="#" role="button">
                                             Proposal Bisnis
                                         </a>
                                         </div>
@@ -254,12 +264,15 @@ export default function PreviewCampaign() {
                                         <br />
                                         <div className="row info-publisher">
                                             <div className="col-2 text-center">
-                                            <img
+                                            <Image
                                                 loading="lazy"
                                                 decoding="async"
                                                 src="/assets/img/messages-1.jpg"
                                                 alt="Penerbit Thumbnail"
                                                 className="img-fluid rounded-2"
+                                                width={100}
+                                                height={100}
+                                                layout="responsive"
                                             />
                                             </div>
                                             <div className="col-7">
