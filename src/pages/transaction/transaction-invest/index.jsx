@@ -48,7 +48,7 @@ export default function TransactionInvest() {
                                     At praesentium minu
                                 </a>
                                 </td>
-                                <td>Rp.600.400</td>
+                                <td>Rp. 600.400</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
@@ -63,7 +63,7 @@ export default function TransactionInvest() {
                                     At recusandae consectetur
                                 </a>
                                 </td>
-                                <td>$147</td>
+                                <td>Rp. 100.000</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
@@ -78,7 +78,7 @@ export default function TransactionInvest() {
                                     Sunt similique distinctio
                                 </a>
                                 </td>
-                                <td>$165</td>
+                                <td>Rp. 200.000</td>
                                 <td>
                                 <span className="badge bg-danger">Rejected</span>
                                 </td>
@@ -93,7 +93,7 @@ export default function TransactionInvest() {
                                     Sunt yuliotos distinctio
                                 </a>
                                 </td>
-                                <td>$165</td>
+                                <td>Rp. 100.000</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
@@ -108,7 +108,7 @@ export default function TransactionInvest() {
                                     Sunt yuliotos distinctio
                                 </a>
                                 </td>
-                                <td>$165</td>
+                                <td>Rp. 400.000</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
@@ -123,7 +123,7 @@ export default function TransactionInvest() {
                                     Sunt yuliotos distinctio
                                 </a>
                                 </td>
-                                <td>$165</td>
+                                <td>Rp. 200.000</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
@@ -138,7 +138,7 @@ export default function TransactionInvest() {
                                     Sunt yuliotos distinctio
                                 </a>
                                 </td>
-                                <td>$165</td>
+                                <td>Rp. 700.000</td>
                                 <td>
                                 <span className="badge bg-success">Approved</span>
                                 </td>
