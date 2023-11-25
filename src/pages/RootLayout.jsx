@@ -12,8 +12,12 @@ const SidebarDynamic = dynamic(() => import('@/components/Sidebar'), {
 export default function RootLayout({ children }) {
   return (
     <>
-          <Head/>
-            {/* Komponent Start */}
+          <Head>
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+            <meta name="keywords" content="crowdfunding, UMKM, Indonesia, crowdfunding UMKM, crowdfunding Indonesia, crowdfunding UMKM Indonesia, crowdfunding UMKM, Campaign, Pengusaha, Butuh Modal"/>
+            <meta name="theme-name" content="CrowdfundingUMKM" />
+          </Head>
           <Header />
           <SidebarDynamic />
           {children}

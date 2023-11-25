@@ -5,6 +5,7 @@ export default function ReviewCampaignLayout({ children }) {
       <>
         <Head>
             <title>Review Campaign | Campaign Mode</title>
+            <meta name="description" content="Review Campaign UMKM anda dari konsultan"/>
         </Head>
         {children}
       </>

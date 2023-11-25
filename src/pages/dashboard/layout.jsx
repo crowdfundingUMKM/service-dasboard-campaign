@@ -5,6 +5,7 @@ export default function DashboardLayout({ children }) {
       <>
         <Head>
             <title>Dashboard | Campaign Mode</title>
+            <meta name="description" content="Selamat datang pada dashboard Crowdfunding UMKM sebagai penguhasa UMKM"/>
         </Head>
         {children}
       </>

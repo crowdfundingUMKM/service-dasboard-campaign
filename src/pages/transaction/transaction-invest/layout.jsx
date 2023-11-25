@@ -5,6 +5,7 @@ export default function TransactionLayout({ children }) {
       <>
         <Head>
             <title>Transaction User | Campaign Mode</title>
+            <meta name="description" content="Transaction pada Campaign anda"/>
         </Head>
         {children}
       </>
