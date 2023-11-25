@@ -12,13 +12,12 @@ function Login() {
                     <div className="row justify-content-center">
                         <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                         <div className="d-flex justify-content-center py-4">
-                            <a
-                            href="index.html"
+                            <div
                             className="logo d-flex align-items-center w-auto"
                             >
                             <Image src="/assets/img/logo.png" alt="" height={100} width={100}/>
                             <span className="d-none d-lg-block">Pengusaha CRWD</span>
-                            </a>
+                            </div>
                         </div>
                         {/* End Logo */}
                         <div className="card mb-3">
@@ -56,7 +55,7 @@ function Login() {
                                     <button
                                         type="button"
                                         id="showHideBtn"
-                                        onClick="togglePasswordVisibility(1)"
+                                        onclick="togglePasswordVisibility(1)"
                                         className="btn btn-outline-secondary"
                                     >
                                         <i className="bi bi-eye-slash" />
