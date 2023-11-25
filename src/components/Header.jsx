@@ -18,7 +18,7 @@ export default function HeaderComponent() {
         <header id="header" className="header fixed-top d-flex align-items-center">
             <div className="d-flex align-items-center justify-content-between">
             <Link href="/dashboard" className="logo d-flex align-items-center">
-                <Image src="/assets/img/logo.png" alt="" width={100} height={100}/>
+                <Image src="/assets/img/logo.png" alt="Logo" width={100} height={100}/>
                 <span className="d-none d-lg-block">Campaign</span>
             </Link>
             <i className="bi bi-list toggle-sidebar-btn" />
