@@ -5,7 +5,7 @@ export default function CreateCampaignLayout({ children }) {
       <>
         <Head>
             <title>Buat Campaign | Campaign Mode</title>
-            <meta name="description" content="Silahkan Buat Campaign Crowdfiunding UMKM"/>
+            <meta name="description" content="Silahkan Buat Campaign Crowdfunding UMKM"/>
         </Head>
         {children}
       </>

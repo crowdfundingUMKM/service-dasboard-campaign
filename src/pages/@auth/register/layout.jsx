@@ -6,7 +6,7 @@ export default function RegisterLayout({ children }) {
       <>
         <Head>
             <title>Register Akun | Campaign Mode</title>
-            <meta name="description" content="Silahkan Register sebagai pengusaha Crowdfiunding UMKM"/>
+            <meta name="description" content="Silahkan Register sebagai pengusaha Crowdfunding UMKM"/>
         </Head>
         {children}
       </>
