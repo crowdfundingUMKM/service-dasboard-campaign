@@ -110,6 +110,7 @@ export default function Sidebar(){
                 </Link>
             </li>
             </ul>
+
         </li>
         {/* End Notif Admin*/}
         <li className="nav-heading">information</li>
@@ -131,6 +132,14 @@ export default function Sidebar(){
               </Link>
             </li>
         {/* End F.A.Q Page Nav */}
+        <li className="nav-item" >
+              <Link href="/@auth/login">
+                <div className="nav-link collapsed">
+                <i className="bi bi-box-arrow-in-right" />
+                <span>Sign Out</span>
+                </div>
+              </Link>
+            </li>
         </ul>
     </aside>
     {/* End Sidebar*/}

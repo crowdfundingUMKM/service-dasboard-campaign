@@ -16,7 +16,7 @@ function Login() {
                             className="logo d-flex align-items-center w-auto"
                             >
                             <Image src="/assets/img/logo.png" alt="" height={100} width={100}/>
-                            <span className="d-none d-lg-block">Pengusaha CRWD</span>
+                            <span className="d-none d-lg-block">Pengusaha</span>
                             </div>
                         </div>
                         {/* End Logo */}
@@ -41,6 +41,7 @@ function Login() {
                                     className="form-control"
                                     id="yourEmail"
                                     required=""
+                                    placeholder="Masukkan email anda"
                                 />
                                 <div className="invalid-feedback">
                                     Tolong, masukan email yang valid!

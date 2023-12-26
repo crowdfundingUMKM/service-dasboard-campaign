@@ -68,7 +68,7 @@ export default function Home() {
                             <i className="bi bi-currency-dollar" />
                             </div>
                             <div className="ps-3">
-                            <h6>Rp.130.000.000,00</h6>
+                            <h6>Rp.130.000.000</h6>
                             <span className="text-success small pt-1 fw-bold">
                                 8%
                             </span>{" "}
