@@ -83,6 +83,11 @@ export default function CreateCampaign() {
                                 />
                             </div>
                             </div>
+                            <div className="d-flex justify-content-end">
+                                <button type="submit" className="btn btn-primary">
+                                    Simpan Campaign
+                                </button>
+                            </div>
                             <hr />
                             <h4>Informasi</h4>
                             <div className="input-group mb-3">
@@ -160,6 +165,12 @@ export default function CreateCampaign() {
                                 <input type="date" className="form-control" />
                             </div>
                             </div>
+                            <div className="d-flex justify-content-end">
+                                <button type="submit" className="btn btn-primary">
+                                    Simpan Informasi
+                                </button>
+                            </div>
+                            <hr />
                             <div className="row mb-3">
                             <label
                                 htmlFor="proposalBisnis"
@@ -177,9 +188,15 @@ export default function CreateCampaign() {
                                 required=""
                                 />
                             </div>
+                            
+                            <div className="d-flex justify-content-end">
+                                <button type="submit" className="btn btn-primary">
+                                    Upload Proposal
+                                </button>
+                            </div>
                             </div>
                             <hr />
-                            <h4>Benefit UMKM</h4>
+                            <h4>Informasi Tambahan</h4>
                             <div className="row mb-3">
                             <label
                                 htmlFor="inputBenefit"
@@ -197,8 +214,6 @@ export default function CreateCampaign() {
                                 />
                             </div>
                             </div>
-                            <hr />
-                            <h4>Link Bisnis</h4>
                             <div className="row mb-3">
                             {/* add Link for bisnis */}
                             <label
@@ -218,13 +233,9 @@ export default function CreateCampaign() {
                             </div>
                             </div>
                             <div className="row mb-3">
-                            <label className="col-sm-2 col-form-label">Simpan</label>
-                            <div className="col-sm-10">
+                            <div className="d-flex justify-content-end">
                                 <button type="submit" className="btn btn-primary">
-                                Simpan Campaign
-                                </button>
-                                <button type="reset" className="btn btn-danger">
-                                Reset
+                                Simpan Informasi Tambahan
                                 </button>
                             </div>
                             </div>
